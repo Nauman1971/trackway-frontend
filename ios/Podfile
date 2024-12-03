@@ -23,6 +23,9 @@ target 'TravelApp' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+
   target 'TravelAppTests' do
     inherit! :complete
     # Pods for testing
